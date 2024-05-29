@@ -28,9 +28,18 @@ pipeline {
 						}
 				}
 			
+			stage ("parallel-4") {
+						steps {
+						
+							sleep 10
 			
-			
-			}		
+			}
+			}
+
+			}
+				
+				
+				
 			
 			
 			}
